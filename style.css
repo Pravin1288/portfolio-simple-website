@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Young Serif", serif;
+}
+
+.container{
+    padding: 50px;
+}
+
+.section-one{
+    background-color: black;
+    color: white;
+    /* Adding padding across all sides */
+    padding:20px;
+} 
+
+.section-one__name{
+    font-size: 24px;
+}
+
+.section-one__role{
+    font-size: 20px;
+    /* Adding gap between Name and Role (Pravin & Developer) */
+    margin-top: 5px;
+    
+}
+.section-one__contact{
+    background-color: orangered;
+    color: white;
+    /* Removing the underline from the contact */
+    text-decoration: none; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    /* Adding gap between Developer and Contact */
+    margin-top: 5px;
+} 
+
+.section-two,.section-three,.section-four,.section-five{
+    /* Adding gap between all title content */
+    margin-top: 10px; 
+}
+
+.section-two_desc,.section-three_desc,.section-four_desc,.section-five_desc{
+    /* Adding gap between title and description content */
+    margin-top: 10px;
+}
+
+/* Removing the list decoration (dots) across all the lists */
+.section-three li,.section-four li{
+list-style: none;
+}
+
+.section-three{
+    background-color: #6462FD;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    /* Alighning the top for both boxes */
+    vertical-align: top;
+}
+
+.section-four{
+    background-color: #ffa84c;
+    color: black;
+    padding: 20px;
+    display: inline-block;
+    height: 200px;
+    border-radius: 10px;
+    /* Alighning the top for both boxes */   
+    vertical-align: top;
+}
+
+
+
+.contact-form{
+    /* Adding gap between section-one and contact-form */
+    margin-top: 20px;
+}
+
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    /* Adding gap between all contents (Firstname, email, message, submit) contact-form */
+    margin-top: 10px;
+}
+
+.contact-form__input{
+/* Setting Padding across all contents in the comtent-form */
+padding: 10px;
+/* Removing all default border from contact-form (box from firstname,email,message)*/
+border: none;
+/* Adding a border line  */
+border-bottom: solid black 1px;
+}
+
+.contact-form__textarea{
+/* Copying all the setting from .contact-form__input */
+padding: 10px;
+border: none;
+border-bottom: solid black 1px;
+}
+
+.contact-form__submit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+
+}
+
+
+
+
+
+/* Adding color to the Links */
+.section-five__title a{
+color: skyblue;
+}
+
+/* Adding color to the footer */
+.section-five{
+    background-color: black;
+    color: white;
+}
