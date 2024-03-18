@@ -1,5 +1,5 @@
-# portfolio-simple-website
-Pravin's Portfolio
+# Pravin's Portfolio
+
 
 Welcome to my portfolio!
 
